@@ -35,7 +35,7 @@ vpn = inversion_inicial + sum([flujos[i]/(1+tasa_descuento)**(i+1) for i in rang
 st.write(f"**Valor Presente Neto (VPN):** ${vpn:,.2f}")
 
 # Gráfico de flujos de caja
-st.subheader("Visualización de Flujoa de Caja")
+st.subheader("Visualización de Flujos de Caja")
 fig,ax = plt.subplots()
 ax.bar(range(1,int(años)+1),flujos,color="skyblue")
 ax.set_xlabel("Años")
