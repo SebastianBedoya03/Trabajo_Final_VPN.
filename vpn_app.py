@@ -9,8 +9,6 @@ Original file is located at
 #*Trabajo Práctico App VPN*
 """
 
-pip install streamlit
-
 # Librerias
 import streamlit as st
 import numpy as np
